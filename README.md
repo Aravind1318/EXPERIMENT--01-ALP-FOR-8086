@@ -1,11 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
-
-
-
-
+Name : ARAVIND P
+Roll no : 212224240015
+Date of experiment : 30/01/2026
 
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
 ## Components required: 8086  emulator 
@@ -33,75 +29,40 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ![image](https://user-images.githubusercontent.com/36288975/189273263-d65baae9-4b8f-4723-afb3-c0ffa4052b04.png)
 
 
-
-
-
-
-
-
-
-
-
 9.	Click on emulate to start emulation 
-
-
-
-
-
-
 
 
 ![image](https://user-images.githubusercontent.com/36288975/189273273-9bb36ec1-e2e8-4892-8d35-37707332bfdc.png)
 
-
-
-
-
-
-
-
 10.	If no errors are found click on run the program and check the status of various flags in the flags tab as shown below 
-
-
-
-
 
 
 ![image](https://user-images.githubusercontent.com/36288975/189273277-113a2a33-4a40-4ff8-95a5-ecd3a1f504fe.png)
 
 
-
-
-
-
-
 ## Programs for arithmetic  operations
+## Output :
+ADDITION
 
-## Addition  of 8 bit ALP 
+SUBRACTION
 
+MULTIPLICATION
 
+DIVISION
+<img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/c4f016a3-7f62-446a-829f-8611b037a851" />
+AND
 
-## Output  
- 
-## Subtraction   of 8 bit numbers  ALP 
- 
-## Output  
-## Multiplication alp 
- ## Output  
+OR
 
+NOT
 
-## Division alp 
+NAND
 
-## Output  
+NOR
 
+XOR
+
+XNOR
 
 ## Result :
- 
-
-
-
-
-
-
-
-
+Thus execution of ALP on fundamental arithmetic and logical operations is sucessfully verified.
