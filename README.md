@@ -1,7 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name : ARAVIND P
-Roll no : 212224240015
-Date of experiment : 30/01/2026
+# Name : ARAVIND P
+# Roll no : 212224240015
+# Date of experiment : 30/01/2026
 
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
 ## Components required: 8086  emulator 
@@ -42,7 +42,7 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 ## Programs for arithmetic  operations
 ## Output :
-ADDITION
+# ADDITION
 ```
 org 100h
 mov ax,[1100h]
@@ -54,7 +54,7 @@ hlt
 ```
 <img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/713a8d52-ecd0-49a1-ad72-48b5f8b86d4c" />
 
-SUBRACTION
+# SUBRACTION
 ```
 org 100h
 mov ax,[1100h]
@@ -66,7 +66,7 @@ hlt
 ```
 <img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/e40365a2-24bb-4d33-ab7a-ac02c61b6678" />
 
-MULTIPLICATION
+# MULTIPLICATION
 ```
 org 100h
 mov ax,[1100h]
@@ -78,7 +78,7 @@ hlt
 ```
 <img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/95e0147d-a73e-4531-b2f8-ee12c153641e" />
 
-DIVISION
+# DIVISION
 ```
 org 100h
 mov ax,[1100h]
@@ -89,7 +89,7 @@ mov [1202h], dx
 hlt
 ```
 <img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/c4f016a3-7f62-446a-829f-8611b037a851" />
-AND
+# AND
 ```
 org 100h
 mov ax,[1100h]
@@ -99,7 +99,7 @@ ret
 ```
 <img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/115a01a4-8c97-4a35-b8c0-90fc5ab46a04" />
 
-OR
+# OR
 ```
 org 100h
 mov ax,[1100h]
@@ -109,7 +109,7 @@ ret
 ```
 <img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/2862f2d0-75ed-4849-bdae-59f44e13e0ed" />
 
-NAND
+# NAND
 ```
 org 100h
 mov ax,[1100h]
@@ -120,7 +120,7 @@ ret
 ```
 <img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/494397c6-c09e-4a47-8f1c-163f6b3b4e82" />
 
-NOR
+# NOR
 ```
 org 100h
 mov ax,[1100h]
@@ -131,7 +131,7 @@ ret
 ```
 <img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/9325eee5-7f6c-40e5-8dbd-47d68a368251" />
 
-XOR
+# XOR
 ```
 org 100h
 mov ax,[1100h]
@@ -141,7 +141,7 @@ ret
 ```
 <img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/da96b723-2ce2-4ff3-b28b-1e66302b1a97" />
 
-XNOR
+# XNOR
 ```
 org 100h
 mov ax,[1100h]
@@ -152,7 +152,7 @@ ret
 ```
 <img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/50d303d5-07f8-45fc-8228-9569f657b8be" />
 
-NOT
+# NOT
 ```
 org 100h
 mov ax,[1100h]  
