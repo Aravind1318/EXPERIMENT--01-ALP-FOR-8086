@@ -43,26 +43,124 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 ## Output :
 ADDITION
+```
+org 100h
+mov ax,[1100h]
+mov bx,[1102h]
+add ax,bx
+mov [1200h], ax
+mov [1202h], dx
+hlt
+```
+<img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/713a8d52-ecd0-49a1-ad72-48b5f8b86d4c" />
 
 SUBRACTION
+```
+org 100h
+mov ax,[1100h]
+mov bx,[1102h]
+sub ax,bx
+mov [1200h], ax
+mov [1202h], dx
+hlt
+```
+<img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/e40365a2-24bb-4d33-ab7a-ac02c61b6678" />
 
 MULTIPLICATION
+```
+org 100h
+mov ax,[1100h]
+mov bx,[1102h]
+mul bx
+mov [1200h], ax
+mov [1202h], dx
+hlt
+```
+<img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/95e0147d-a73e-4531-b2f8-ee12c153641e" />
 
 DIVISION
+```
+org 100h
+mov ax,[1100h]
+mov bx,[1102h]
+div bx
+mov [1200h], ax
+mov [1202h], dx
+hlt
+```
 <img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/c4f016a3-7f62-446a-829f-8611b037a851" />
 AND
+```
+org 100h
+mov ax,[1100h]
+mov bx,[1102h]
+and ax,bx
+ret
+```
+<img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/115a01a4-8c97-4a35-b8c0-90fc5ab46a04" />
 
 OR
-
-NOT
+```
+org 100h
+mov ax,[1100h]
+mov bx,[1102h]
+or ax,bx
+ret
+```
+<img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/2862f2d0-75ed-4849-bdae-59f44e13e0ed" />
 
 NAND
+```
+org 100h
+mov ax,[1100h]
+mov bx,[1102h]
+and ax,bx
+not ax
+ret
+```
+<img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/494397c6-c09e-4a47-8f1c-163f6b3b4e82" />
 
 NOR
+```
+org 100h
+mov ax,[1100h]
+mov bx,[1102h]
+or ax,bx
+not ax
+ret
+```
+<img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/9325eee5-7f6c-40e5-8dbd-47d68a368251" />
 
 XOR
+```
+org 100h
+mov ax,[1100h]
+mov bx,[1102h]
+xor ax,bx
+ret
+```
+<img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/da96b723-2ce2-4ff3-b28b-1e66302b1a97" />
 
 XNOR
+```
+org 100h
+mov ax,[1100h]
+mov bx,[1102h]
+xor ax,bx  
+not ax
+ret
+```
+<img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/50d303d5-07f8-45fc-8228-9569f657b8be" />
+
+NOT
+```
+org 100h
+mov ax,[1100h]  
+not ax 
+ret
+```
+<img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/2e2b7cdb-255b-43eb-9106-d3738f9c2be8" />
+
 
 ## Result :
 Thus execution of ALP on fundamental arithmetic and logical operations is sucessfully verified.
