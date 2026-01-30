@@ -89,6 +89,7 @@ mov [1202h], dx
 hlt
 ```
 <img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/c4f016a3-7f62-446a-829f-8611b037a851" />
+
 # AND
 ```
 org 100h
